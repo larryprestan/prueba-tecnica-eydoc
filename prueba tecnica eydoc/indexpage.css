@@ -1,3 +1,4 @@
+/* aplicamos la configuracion e imagen de fondo al contenedor principal  */
 #rootcontainer{
     width:700px;
     height: 350px;
@@ -5,14 +6,19 @@
     background-image: url(./statics/fondo02.jpg);
     background-size: contain;
 }
+
+/* aplicamos la configuracion y el fecto esmerilado al boton  */
 #glassbtn{
     width: 300px;
     height: 175px;
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.6);
     background-color: rgba(133, 203, 227,0.3);
+    
+    /*con estas propiedades aplicamos el efecto esmerilado*/
     -webkit-backdrop-filter: blur(1px);
     backdrop-filter: blur(1px);
+    
     padding: 20px;
     margin: 30px;
     font-weight: bold;
